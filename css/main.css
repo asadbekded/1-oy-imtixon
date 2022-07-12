@@ -56,7 +56,7 @@ img{
 }
 .header-top{
    background: #FFFFFF;
-   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+   box-shadow: 0px 4px 20px #0000001a;
 }
 .logo-link{
    flex-grow: 1;
@@ -73,7 +73,7 @@ img{
    font-size: 15px;
    line-height: 24px;
    color: #000000;
-   margin-right: 32px;
+   margin-right: 25px;
 }
 .top-link{
    font-style: normal;
@@ -81,14 +81,16 @@ img{
    font-size: 15px;
    line-height: 24px;
    color: #000000;
+   border-bottom: 3px solid #fff;
+   padding: 8px;
 }
 .top-link:hover{
    border-bottom: 3px solid #000;
 }
 .top-link:active{
-   padding: 16px;
+   padding: 8px;
    color: #FFFFFF;
-   background: rgba(25, 25, 25, 0.7);
+   background: #191919b3;
    border-bottom: none;
 }
 .link-active{
@@ -101,6 +103,7 @@ img{
    border-radius: 5px;
    padding: 8px 16px;
    margin-right: 0px;
+   border: 3px solid #fff;
 }
 .link-active:hover{
    border: 3px solid #00BAFC;
@@ -109,7 +112,7 @@ img{
    color: #00BAFC;
 }
 .link-active:active{
-   background: rgba(0, 186, 252, 0.6);
+   background: #00bafc99;
    border-radius: 5px;
    color: #FFFFFF;
    border: none;
